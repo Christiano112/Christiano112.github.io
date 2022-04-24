@@ -126,6 +126,7 @@ a:hover {
     grid-template-rows: 1fr 1fr;
     justify-content: space-evenly;
     gap: 2rem 2rem;
+    padding: 1rem;
 }
 
 /* Second End */
