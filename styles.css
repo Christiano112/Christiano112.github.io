@@ -2,7 +2,6 @@
 /*============= DESKTOP DESIGN ==========*/
 
 body {
-    max-width: 1440px;
     background: hsl(218, 28%, 13%);
     font-size: 14px;
     color: hsl(0, 0%, 100%);
@@ -138,6 +137,12 @@ a:hover {
     justify-content: space-evenly;
     padding: 10rem 5rem;
 }
+
+.colorlink {
+    color: hsl(176, 68%, 64%);
+    text-decoration: underline;
+}
+
 /* Third End */
 
 
@@ -151,6 +156,11 @@ a:hover {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
+}
+
+.qoute {
+    padding-left: 3rem;
+    margin-bottom: .5rem;
 }
 
 .flext {
@@ -221,4 +231,153 @@ footer {
     width: 1.5rem;
 }
 
+footer .copy span {
+        color: hsl(176, 68%, 64%);
+}
+
 /* Footer End */
+
+
+
+/* ========== MOBILE ========= */
+
+@media (max-width: 577px) {
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        margin-bottom: 2rem;
+    }
+
+    header {
+        padding: 1rem 1rem;
+    }
+
+    li a {
+        margin: 0 .2rem;
+    }
+
+    .logo {
+        width: 5rem;
+        height: 2rem;
+        padding-top: .5rem;
+    }
+
+    .intro-img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+
+    .intro-h {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    .text-center p {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 70%;
+    }
+
+
+    .second {
+        gap: 1rem 1rem;
+    }
+
+    .second h4 {
+        margin-bottom: -.3rem;
+    }
+
+    .second p {
+        text-align: left;
+    }
+
+
+    .third {
+        flex-direction: column;
+        padding: 4rem 1rem;
+    }
+
+    .illu {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+    }
+
+    .third div h3 {
+        text-align: center;
+    }
+
+    .team {
+        flex-direction: column;
+        gap: 1.5rem 0;
+    }
+
+    .flext {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 60%;
+        padding: .5rem 1rem;
+    }
+
+    .qoute {
+        margin-left: -2rem;
+    }
+
+
+    .signin {
+        padding: 1rem;
+        width: 80%;
+    }
+
+    .signin p {
+        text-align: justify;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form div input {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+
+    form button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        display: block;
+        width: 100%;
+    }
+
+
+    footer {
+        padding: 2rem;
+    }
+
+    .foot {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    footer .copy {
+        margin-left: -1.3rem;
+    }
+
+    
+}
